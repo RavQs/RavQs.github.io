@@ -27,14 +27,14 @@
   }
 
   .container h1 {
-    font-size: 1.4em;
+    font-size: 2em;
     text-align: center;
   }
 
   .container p {
     text-align: center;
     margin: 1em;
-    font-size: 1em;
+    font-size: 1.3em;
     color: rgba(0,0,0,0.6)
   }
 
