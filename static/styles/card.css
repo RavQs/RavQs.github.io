@@ -1,20 +1,27 @@
 /* card */
 .card {
     margin-top: 5px;
-    width: 200px;
-    text-align: center;
+    width: 280px;
+    height: auto;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 15px;
+    background-color: hsl(0, 0%, 100%);
+
+    
   }
 
   .card img {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
     display: block;
-    width: 180px;
+    width: 230px;
     padding: 10px;
     border-radius:15px;
+    
   }
-  
+
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
@@ -22,6 +29,17 @@
   /* Add some padding inside the card container */
   .container {
     padding: 10px 16px 10px 19px;
+  }
+
+  .container h4 {
+    text-align: center;
+  }
+
+  .container p {
+    text-align: center;
+    margin: 10px;
+    font-size: 12px;
+    color: rgba(0,0,0,0.6)
   }
 
 
