@@ -1,53 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Outfit&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
     font-family: Outfit,serif;
-    background-color:hsl(212, 45%, 89%);
-    display: grid;
-    place-content: center;
-}
-
-.main {
-    margin-top: 100px;
-    background-color: hsl(218, 44%, 22%);
-    width: 1440px;
-    height: 700px;
-    display: grid;
-    place-content: center;
+    background-color:hsl(218, 44%, 22%);
+    
 }
 
   /* footer */
-.attribution {
-    font-size: 11px;
-    text-align: center;
-  }
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }
-
-
-  @media (max-width:375px) {
-    body {
-      display: block;
-    }
-
-
-  .main {
+footer {
     display: block;
-    visibility: hidden;
-    width: 0;
-    height: 0;
-    margin: 20px 0 0 20px;
-    padding: 0;
-  }
+    margin-top: 1em;
+    font-size: 1em;
+    text-align: center;
+    color: hsl(212, 45%, 89%);
 
-  .card {
-    visibility: visible;
   }
-}
+  footer a {
+    color: hsl(212, 45%, 89%)
+  }
